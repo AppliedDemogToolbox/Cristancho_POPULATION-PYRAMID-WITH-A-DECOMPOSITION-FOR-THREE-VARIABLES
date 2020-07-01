@@ -1,7 +1,9 @@
 ##############################################################################################################################
 ##POPULATION PYRAMID WITH A DECOMPOSITION FOR THREE VARIABLES
 ##
-##CÉSAR CRISTANCHO. MARCH, 2020 (LAST UPDATED: MARCH, 2020)
+##CÉSAR CRISTANCHO. MARCH, 2020 (LAST UPDATED: MARCH, 2020) 
+##                    NOTE: This copy is forked from https://github.com/CescRf/population-PYRAMID-WITH-A-DECOMPOSITION-FOR-THREE-VARIABLES
+##                            with optional install.packages() function, and direct-link to the example data on the web -Eddie Hunsinger, June 2020       
 ##
 ##cacristanchof@gmail.com
 ##
@@ -10,6 +12,7 @@
 ##THERE IS NO WARRANTY FOR THIS CODE
 ##############################################################################################################################
 
+##install.packages(c("tidyverse","data.table","ggthemes","forcats"))
 library(tidyverse)
 library(data.table)
 library(ggthemes)
