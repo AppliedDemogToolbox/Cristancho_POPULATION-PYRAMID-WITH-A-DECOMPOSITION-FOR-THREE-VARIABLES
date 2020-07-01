@@ -2,6 +2,8 @@
 ##POPULATION PYRAMID WITH A DECOMPOSITION FOR THREE VARIABLES
 ##
 ##CÉSAR CRISTANCHO. MARCH, 2020 (LAST UPDATED: MARCH, 2020)
+##                    NOTE: This copy is forked from https://github.com/CescRf/population-PYRAMID-WITH-A-DECOMPOSITION-FOR-THREE-VARIABLES
+##                            with optional install.packages() function, and direct-link to the example data on the web -Eddie Hunsinger, June 2020
 ##
 ##cacristanchof@gmail.com
 ##
@@ -10,12 +12,13 @@
 ##THERE IS NO WARRANTY FOR THIS CODE
 ##############################################################################################################################
 
+##install.packages(c("tidyverse","data.table","ggthemes","forcats"))
 library(tidyverse)
 library(data.table)
 library(ggthemes)
 library(forcats)
 
-bd <- fread('Casos1_2203.csv', encoding = 'UTF-8')
+bd <- fread('https://raw.githubusercontent.com/CescRf/population-PYRAMID-WITH-A-DECOMPOSITION-FOR-THREE-VARIABLES/master/Casos1_2103B.csv', encoding = 'UTF-8')
 
 
 bdb <- bd %>% 
