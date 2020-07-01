@@ -18,7 +18,7 @@ library(data.table)
 library(ggthemes)
 library(forcats)
 
-bd <- fread('Casos1_2103B.csv', encoding = 'UTF-8')
+bd <- fread('https://raw.githubusercontent.com/CescRf/population-PYRAMID-WITH-A-DECOMPOSITION-FOR-THREE-VARIABLES/master/Casos1_2103B.csv', encoding = 'UTF-8')
 
 bdb <- bd %>% 
   count(Sexo, Edad, `Tipo*`) %>% 
